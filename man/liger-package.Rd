@@ -1,24 +1,24 @@
-\name{liger-package}
-\alias{liger-package}
-\alias{liger}
+\name{macoskoliger-package}
+\alias{macoskoliger-package}
+\alias{macoskoliger}
 \docType{package}
 \title{
-\packageTitle{liger}
+\packageTitle{macoskoliger}
 }
 \description{
-\packageDescription{liger}
+\packageDescription{macoskoliger}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{liger}
-\packageIndices{liger}
+\packageDESCRIPTION{macoskoliger}
+\packageIndices{macoskoliger}
  An overview of how to use the package, including the most important functions 
 }
 \author{
-\packageAuthor{liger}
+\packageAuthor{macoskoliger}
 
-Maintainer: \packageMaintainer{liger}
+Maintainer: \packageMaintainer{macoskoliger}
 }
 \references{
 Literature or other references for background information 

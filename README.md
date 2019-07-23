@@ -10,6 +10,7 @@ If you, like me, need to be able to use both packages, you can install this fork
 
 **Be warned**: This version may not be updated with the latest and greatest features and bugfixes in the MacoskoLab repository.
 
+**If you use this package, cite the original: https://macoskolab.github.io/liger/ !!**
 
 # LIGER (Linked Inference of Genomic Experimental Relationships)
 

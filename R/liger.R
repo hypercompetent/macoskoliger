@@ -34,7 +34,7 @@
 #' @aliases liger-class
 #' @exportClass liger
 #' @importFrom Rcpp evalCpp
-#' @useDynLib liger
+#' @useDynLib macoskoliger
 
 liger <- methods::setClass(
   "liger",
