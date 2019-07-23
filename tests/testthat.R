@@ -1,4 +1,4 @@
 library(testthat)
-library(liger)
+library(macoskoliger)
 
 test_check("liger")

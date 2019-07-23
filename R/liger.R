@@ -311,7 +311,7 @@ createLiger <- function(raw.data, make.sparse = T, take.gene.union = F,
   object <- methods::new(
     Class = "liger",
     raw.data = raw.data,
-    version = packageVersion("liger")
+    version = packageVersion("macoskoliger")
   )
   # remove missing cells
   if (remove.missing) {
