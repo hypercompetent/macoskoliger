@@ -8,7 +8,7 @@ using namespace Rcpp;
 
 // scaleNotCenterFast
 arma::sp_mat scaleNotCenterFast(arma::sp_mat x);
-RcppExport SEXP _liger_scaleNotCenterFast(SEXP xSEXP) {
+RcppExport SEXP _macoskoliger_scaleNotCenterFast(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -19,7 +19,7 @@ END_RCPP
 }
 // rowMeansFast
 NumericVector rowMeansFast(arma::sp_mat x);
-RcppExport SEXP _liger_rowMeansFast(SEXP xSEXP) {
+RcppExport SEXP _macoskoliger_rowMeansFast(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -30,7 +30,7 @@ END_RCPP
 }
 // rowVarsFast
 NumericVector rowVarsFast(arma::sp_mat x, NumericVector means);
-RcppExport SEXP _liger_rowVarsFast(SEXP xSEXP, SEXP meansSEXP) {
+RcppExport SEXP _macoskoliger_rowVarsFast(SEXP xSEXP, SEXP meansSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -42,7 +42,7 @@ END_RCPP
 }
 // solveNNLS
 arma::mat solveNNLS(const arma::mat& C, const arma::mat& B);
-RcppExport SEXP _liger_solveNNLS(SEXP CSEXP, SEXP BSEXP) {
+RcppExport SEXP _macoskoliger_solveNNLS(SEXP CSEXP, SEXP BSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -54,14 +54,14 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_liger_scaleNotCenterFast", (DL_FUNC) &_liger_scaleNotCenterFast, 1},
-    {"_liger_rowMeansFast", (DL_FUNC) &_liger_rowMeansFast, 1},
-    {"_liger_rowVarsFast", (DL_FUNC) &_liger_rowVarsFast, 2},
-    {"_liger_solveNNLS", (DL_FUNC) &_liger_solveNNLS, 2},
+    {"_macoskoliger_scaleNotCenterFast", (DL_FUNC) &_macoskoliger_scaleNotCenterFast, 1},
+    {"_macoskoliger_rowMeansFast", (DL_FUNC) &_macoskoliger_rowMeansFast, 1},
+    {"_macoskoliger_rowVarsFast", (DL_FUNC) &_macoskoliger_rowVarsFast, 2},
+    {"_macoskoliger_solveNNLS", (DL_FUNC) &_macoskoliger_solveNNLS, 2},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_liger(DllInfo *dll) {
+RcppExport void R_init_macoskoliger(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

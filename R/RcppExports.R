@@ -2,18 +2,18 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 scaleNotCenterFast <- function(x) {
-    .Call('_liger_scaleNotCenterFast', PACKAGE = 'macoskoliger', x)
+    .Call('_macoskoliger_scaleNotCenterFast', PACKAGE = 'macoskoliger', x)
 }
 
 rowMeansFast <- function(x) {
-    .Call('_liger_rowMeansFast', PACKAGE = 'macoskoliger', x)
+    .Call('_macoskoliger_rowMeansFast', PACKAGE = 'macoskoliger', x)
 }
 
 rowVarsFast <- function(x, means) {
-    .Call('_liger_rowVarsFast', PACKAGE = 'macoskoliger', x, means)
+    .Call('_macoskoliger_rowVarsFast', PACKAGE = 'macoskoliger', x, means)
 }
 
 solveNNLS <- function(C, B) {
-    .Call('_liger_solveNNLS', PACKAGE = 'macoskoliger', C, B)
+    .Call('_macoskoliger_solveNNLS', PACKAGE = 'macoskoliger', C, B)
 }
 

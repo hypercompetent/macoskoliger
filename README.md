@@ -1,10 +1,19 @@
 <img src="docs/img/liger_cropped.png" width="150">
 
-[![Build Status](https://travis-ci.org/MacoskoLab/liger.svg?branch=master)](https://travis-ci.org/MacoskoLab/liger.svg?branch=master)
+## `macoskoliger`: A fork of the Macosko Lab's LIGER package
+
+`liger` has an unfortunate namespace conflict with a CRAN package of the same name: https://cran.rstudio.com/web/packages/liger/index.html. 
+
+The real deal from the Macosko lab can be found here: https://macoskolab.github.io/liger/
+
+If you, like me, need to be able to use both packages, you can install this fork.
+
+**Be warned**: This version may not be updated with the latest and greatest features and bugfixes in the MacoskoLab repository.
+
 
 # LIGER (Linked Inference of Genomic Experimental Relationships)
 
-LIGER (`liger`) is a package for integrating and analyzing multiple single-cell datasets, developed and maintained by the Macosko lab. It relies on integrative non-negative matrix factorization to identify shared and dataset-specific factors. 
+LIGER (`liger`) is a package for integrating and analyzing multiple single-cell datasets, developed and maintained by the Macosko lab. It relies on integrative non-negative matrix factorization to identify shared and dataset-specific factors.
 
 Check out our [Cell paper](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5) for a more complete description of the methods and analyses. To access data used in our SN and BNST analyses, visit our [study](https://portals.broadinstitute.org/single_cell/study/SCP466) on the
 Single Cell Portal. 
@@ -38,7 +47,7 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 
 ## Installation
 
-`liger` is written in R and has a few other system requirements (Java) and recommended packages (umap in Python). To install the most recent development version, follow these instructions:
+`macoskoliger` is written in R and has a few other system requirements (Java) and recommended packages (umap in Python). To install the most recent development version, follow these instructions:
 
 1. Install [R](https://www.r-project.org/)  (>= 3.4)
 2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/) (recommended)
@@ -47,7 +56,8 @@ For usage examples and guided walkthroughs, check the `vignettes` directory of t
 ```
 install.packages('devtools')
 library(devtools)
-install_github('MacoskoLab/liger')
+install_github('thomasp85/patchwork')
+install_github('hypercompetent/macoskoliger')
 ```
 
 ### Additional Installation Steps for MacOS (recommended before step 4)
