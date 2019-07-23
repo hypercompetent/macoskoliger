@@ -1,4 +1,4 @@
-Package: liger
+Package: macoskoliger
 Type: Package
 Title: Linked Inference of Genomic Experimental Relationships
 Version: 0.4.2
